@@ -31,19 +31,45 @@ Easy Customization	Drop-in JSON config to add chains or update wallet/token sett
 🗂 Folder Structure
 
 toeken-crypto-gateway/
+
 ├── frontend/
-│   └── index.html               # UI with wallet connect, pay, and claim NFT
+
+│   └── index.html 
+# UI with wallet connect, pay, and claim NFT
+
 ├── backend/
-│   └── server.js                # Listens for blockchain events (payments)
+
+│   └── server.js  
+
+# Listens for blockchain events (payments)
+
 ├── smart-contracts/
-│   ├── LazyMintNFT.sol          # NFT contract with lazy minting support
-│   └── ToekenToken.sol          # Optional: ERC20 token for use in payments
+
+│   ├── LazyMintNFT.sol 
+
+# NFT contract with lazy minting support
+
+│   └── ToekenToken.sol
+
+# Optional: ERC20 token for use in payments
+
 ├── scripts/
-│   └── deploy.js                # Hardhat script to deploy to all networks
+
+│   └── deploy.js 
+
+# Hardhat script to deploy to all networks
 ├── config/
-│   └── settings.json            # List of supported chains + wallet addresses
-├── package.json                 # Node.js project with Hardhat + Ethers
-└── README.md                    # You're reading it
+
+│   └── settings.json 
+
+# List of supported chains + wallet addresses
+
+├── package.json 
+
+# Node.js project with Hardhat + Ethers
+└── README.md  
+
+# You're reading it
 
 
 ---
